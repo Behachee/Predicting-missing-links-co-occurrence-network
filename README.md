@@ -13,10 +13,10 @@ Report and code completeness, organization and readability will be worth 10 poin
 
 
 # TIMELINE
-Jeudi 14 Mars - Mise en commun EDA + feature Engineering
-Vendredi 15 Mars - Fichier merged de toutes les features engineering 
-Mercredi 20 Mars - Mise en commun des différents models de classification
-Vendredi 22 Mars - Github propre avec un fichier / model 
-Deadline Final - Rapport propre + Github propre 
+- Jeudi 14 Mars - Mise en commun EDA + feature Engineering
+- Vendredi 15 Mars - Fichier merged de toutes les features engineering 
+- Mercredi 20 Mars - Mise en commun des différents models de classification
+- Vendredi 22 Mars - Github propre avec un fichier / model 
+- Deadline Final - Rapport propre + Github propre 
 
 # Reference et Lien Utile
