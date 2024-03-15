@@ -65,9 +65,32 @@ Each model is contained in a separate module within the `models` directory.
 
 Feature engineering is a crucial aspect of building effective machine learning models. In this project, we perform the following feature engineering steps:
 
-- Feature 1: Description of feature 1.
-- Feature 2: Description of feature 2.
-- ...
+- **Degree**: The degree of a node in a network represents the number of connections it has to other nodes. In simple terms, it measures how connected a node is within the network.
+
+- **Centrality**: Centrality measures the importance of a node within a network. There are different types of centrality measures, such as degree centrality, betweenness centrality, and closeness centrality, each capturing different aspects of node importance.
+
+- **Community**: In the context of network analysis, a community refers to a group of nodes that are densely connected to each other but sparsely connected to nodes outside the group. Community detection algorithms aim to identify these groups within a network.
+
+- **Jaccard Similarity**: Jaccard similarity measures the similarity between two sets by comparing the intersection and union of the sets. In the context of networks, it quantifies the similarity between two nodes based on the common neighbors they share.
+
+- **Salton Similarity**: Salton similarity is a similarity measure in network analysis that calculates the cosine of the angle between the vectors representing two nodes in a network.
+
+- **Sorenson Similarity**: Sorenson similarity, also known as Sørensen–Dice coefficient, is a similarity measure commonly used in network analysis. It is calculated as twice the number of common neighbors divided by the sum of the degrees of the two nodes being compared.
+
+- **Hub Promoted Similarity**: Hub Promoted Similarity is a similarity measure that gives more weight to common neighbors that are hubs in the network. It considers the importance of shared neighbors in determining similarity.
+
+- **Leicht-Holme-Newman Similarity**: Leicht-Holme-Newman similarity is a measure of similarity between two nodes in a network that accounts for the degree distribution of the network. It considers the likelihood of observing the shared neighbors by chance.
+
+- **Adamic-Adar Similarity**: Adamic-Adar similarity is a measure of similarity between two nodes in a network that assigns higher weights to common neighbors with lower degrees. It penalizes the contribution of common neighbors with high degrees.
+
+- **Resource Allocation Similarity**: Resource Allocation similarity is a measure of similarity between two nodes in a network that allocates resources (such as edges or connections) based on the common neighbors shared by the nodes.
+
+- **Common Neighbors**: Common neighbors refer to the nodes that are directly connected to both of the nodes being considered. In other words, they are the nodes that share an edge with both target nodes in a network.
+
+- **Node_info Source**: This refers to information associated with the source node in a network
+
+- **Node_info Target**: Similarly, this refers to information associated with the target node in a network.
+
 
 The code for feature engineering can be found in the `feature_engineering.py` file.
 
