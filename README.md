@@ -119,7 +119,7 @@ For questions or feedback regarding this project, please contact Théo Belen-Hal
 
 
 
-
+----------------------------------------------------------------------------------
 
 The 3-page report should include the following sections (in that order):
 feature engineering (30 points). Regardless of the performance achieved, intended to reward the research efforts, creativity and rigor put into feature engineering. Best submissions will capture both textual, graph-theoretical, and meta information available in the node_information.csv file. You are expected to:
