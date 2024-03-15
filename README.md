@@ -26,8 +26,67 @@ This project focuses on predicting missing links in co-occurrence networks using
 To get started with this project, follow these steps:
 
 1. Clone the repository:
+```bash
+git clone https://github.com/Behachee/Predicting-missing-links-co-occurrence-network.git
+```
 
-""" git clone https://github.com/Behachee/Predicting-missing-links-co-occurrence-network.git""" 
+2. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+
+## Usage
+
+To use the code in this repository, follow these steps:
+
+1. Navigate to the project directory:
+```bash
+cd Predicting-missing-links-co-occurrence-network
+```
+
+2. Run the desired scripts or notebooks for training models, evaluating results, etc.
+
+## Data
+
+The data used in this project is located in the `data` directory. It includes sample datasets for training and testing the models.
+
+## Models
+
+This repository contains implementations of the following models:
+
+- Model 1
+- Model 2
+- ...
+
+Each model is contained in a separate module within the `models` directory.
+
+## Feature Engineering
+
+Feature engineering is a crucial aspect of building effective machine learning models. In this project, we perform the following feature engineering steps:
+
+- Feature 1: Description of feature 1.
+- Feature 2: Description of feature 2.
+- ...
+
+The code for feature engineering can be found in the `feature_engineering.py` file.
+
+## Results
+
+Details of the experimental results can be found in the `results` directory. This includes performance metrics, visualizations, and analysis of the models.
+
+## Contributing
+
+Contributions to this project are welcome. If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
+
+
+## Contact
+
+For questions or feedback regarding this project, please contact Théo Belen-Halimi, Victor De Chaisemartin, Joseph Panijel, Théo Sioufi or theo.belen-halimi@student-cs.fr.
+
+
+
+
 
 
 
