@@ -55,9 +55,9 @@ The data used in this project is located in the `data` directory. It includes sa
 
 This repository contains implementations of the following models:
 
-- Model 1
-- Model 2
-- ...
+- Logistic Regression (Baseline Model)
+- XGBoost
+- Graph Neural Network
 
 Each model is contained in a separate module within the `models` directory.
 
