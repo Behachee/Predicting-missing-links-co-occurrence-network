@@ -50,6 +50,7 @@ cd Predicting-missing-links-co-occurrence-network
 ## Data
 
 The data used in this project is located in the `data` directory. It includes sample datasets for training and testing the models.
+As well as `train_set_final` and `test_set_final`, the two files containing the training and test data augmented with feature engineering.
 
 ## Models
 
@@ -59,7 +60,7 @@ This repository contains implementations of the following models:
 - XGBoost
 - Graph Neural Network
 
-Each model is contained in a separate module within the `models` directory.
+Each model is contained in a separate notebook within the `models` directory.
 
 ## Feature Engineering
 
@@ -92,11 +93,11 @@ Feature engineering is a crucial aspect of building effective machine learning m
 - **Node_info Target**: Similarly, this refers to information associated with the target node in a network.
 
 
-The code for feature engineering can be found in the `feature_engineering.py` file.
+The code for feature engineering can be found in the `Feature_Engineering.ipynb` file.
 
 ## Results
 
-Details of the experimental results can be found in the `results` directory. This includes performance metrics, visualizations, and analysis of the models.
+Prediction of different model can be found in the `submission` directory named `model_name_prediction.csv`
 
 ## Contributing
 
