@@ -128,7 +128,11 @@ Contributions to this project are welcome. If you have ideas for improvements or
 ## Contact
 
 For questions or feedback regarding this project, please contact Théo Belen-Halimi, Victor De Chaisemartin, Joseph Panijel, Théo Sioufi or theo.belen-halimi@student-cs.fr.
-- Vendredi 22 Mars - Github propre avec un fichier / model 
-- Deadline Final - Rapport propre + Github propre 
 
 # Reference et Lien Utile
+- Hou, L., & Liu, K. (2017). [Common neighbour structure and similarity intensity in complex networks](https://doi.org/10.1016/j.physleta.2017.08.050). *Physics Letters A, 381*(39), 3377-3383.
+
+- Nasuha Daud, N., Ab Hamid, S. H., Saadoon, M., Sahran, F., & Anuar, N. B. (2020). [Applications of link prediction in social networks: A review](https://doi.org/10.1016/j.jnca.2020.102716). *Journal of Network and Computer Applications, 166*, 102716.
+
+- Zhang, Z., Cui, L., & Wu, J. (2021). [Exploring an edge convolution and normalization based approach for link prediction in complex networks](https://doi.org/10.1016/j.jnca.2021.103113). *Journal of Network and Computer Applications, 189*, 103113.
+
