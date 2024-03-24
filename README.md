@@ -116,7 +116,7 @@ Prediction of different model can be found in the `submission` directory named `
 | SVM               |    -     |     -     |
 | Random Forest     |  72.9%   |   0.778   |
 | CatBoost          |  71.9%   |   0.770   |
-| XGBoost           |  70.3%   |   0.748   |
+| XGBoost           |  82.3%   |   0.84   |
 | GNN               |  60.2%   |   0.663   |
 
 ## Contributing
