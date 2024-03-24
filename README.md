@@ -56,9 +56,15 @@ As well as `train_set_final` and `test_set_final`, the two files containing the 
 
 This repository contains implementations of the following models:
 
+
+- Random Prediction
 - Logistic Regression (Baseline Model)
 - XGBoost
 - Graph Neural Network
+- Random Forest
+- Node2Vec
+- SVM
+- CatBoost
 
 Each model is contained in a separate notebook within the `models` directory.
 
@@ -88,6 +94,12 @@ Feature engineering is a crucial aspect of building effective machine learning m
 
 - **Common Neighbors**: Common neighbors refer to the nodes that are directly connected to both of the nodes being considered. In other words, they are the nodes that share an edge with both target nodes in a network.
 
+- **Cosine similarity**: Measures the cosine of the angle between two nodes’ features vectors used to determine how similar they are. It ranges from -1 (exactly opposite) to 1 (exactly the same), with 0 indicating orthogonality (no similarity).
+
+- **Preferential Attachment**: Suggests that the probability that a new link connects to a node is proportional to the number of connections that node already has.
+
+- **Same Community**: Denotes if the two nodes belong to the same community
+
 - **Node_info Source**: This refers to information associated with the source node in a network
 
 - **Node_info Target**: Similarly, this refers to information associated with the target node in a network.
@@ -98,6 +110,15 @@ The code for feature engineering can be found in the `Feature_Engineering.ipynb`
 ## Results
 
 Prediction of different model can be found in the `submission` directory named `model_name_prediction.csv`
+
+| Model             | Accuracy | AUC Score |
+|-------------------|----------|-----------|
+| Logistic Regression | 70.5%   |   0.749   |
+| SVM               |    -     |     -     |
+| Random Forest     |  72.9%   |   0.778   |
+| CatBoost          |  71.9%   |   0.770   |
+| XGBoost           |  70.3%   |   0.748   |
+| GNN               |  60.2%   |   0.663   |
 
 ## Contributing
 
