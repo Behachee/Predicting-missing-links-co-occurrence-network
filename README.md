@@ -1,9 +1,5 @@
 # Predicting Missing Links In An Actor Co-occurrence Network
 
-# Predicting Missing Links in Co-occurrence Network
-
-This repository contains code and data for predicting missing links in co-occurrence networks.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -19,7 +15,10 @@ This repository contains code and data for predicting missing links in co-occurr
 
 ## Introduction
 
-This project focuses on predicting missing links in co-occurrence networks using machine learning techniques. It includes implementations of various models and algorithms tailored for this task.
+This project focuses on link prediction methods applied to a graph representation of our dataset. The dataset at hand is composed of nodes that represent actors, and edges that indicate a case of co-occurrence between two actors. We define co-occurrence as the occurrence of the name of both actors on a wikipedia page, which stands as a proxy for their joint participation in a movie, or other type of relationship (level of fame, personal relationship…)
+
+Given a pair of actors, we aim to predict if there is a co-occurrence between these two actors, classified with a label 1, or 0 if there isn’t any relationship. In order to determine the existence of a relationship, we are also given a dataset ‘node_information’ which represents information about each actor (each node) from its own wikipedia page, with keywords processed and encoded in 932 features. Our training set consists of 10,496 node pairs, with the associated label. Our test set consists of 3498 node pairs, with certain edges between the pairs that have been removed from the original graph. We conduct feature engineering and feature selection and utilize various models to classify the missing links in the test set. 
+
 
 ## Installation
 
